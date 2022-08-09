@@ -1,0 +1,11 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+      "connection": "Endpoint=sb://ihsuprodblres064dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=WGh766GVC/AzktradaOrbxciNVF3XrcRojMve0QBtiA=;EntityPath=iothub-ehub-esp32iotba-20439816-369344bb27"
+    }
+  ]
+}
